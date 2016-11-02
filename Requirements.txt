@@ -1,0 +1,52 @@
+一. 預修科目: 
+1. 計算機程式設計: 本課程絕大部分的的範例, 作業, 期末專題等, 均使用Python與Matlab及二者有關的函式庫. 
+修課同學不一定要學過Python, 課程中會有簡介, 但同學最好開學前就能對以下一般程式語言觀念有相當的了解: 變數, if...else, 
+迴圈(for, while, do...while), 函式(function), 一,二維陣列, 類別(class)與物件(object). 更實際一點來說, 如果能相當清楚以下YouTube影片介紹的Python內容, 對本課程的學習應該就沒有問題: D. Banas, Python Programming (Learn Python in One Video,約45分鐘), https://www.youtube.com/watch?v=N4mEzFDjqtA 
+至於MATLAB, 本課程將會提供T. P. Trappenberg, Fundamentals of Computational Neuroscience, Oxford 
+University Press, 2010書中的附錄E: A brief introduction to MATLAB作為入門參考 
+. 
+
+2. 機率與統計, 例如probability density function, 期望值, mean, variance, Gaussian distribution, Poisson distribution, random variables, 
+conditional probability, Bayes定理等. 
+
+3. 認知神經科學: 作為計算模型須符合的限制(constrains), 但不是本課程重點. 相關內容主要放置於參考教材, 由基礎開始介紹, 所以沒學過也行. 要深入探討的同學請考慮同時或先後修習相關課程如腦與心智科學概論, 心與腦, 神經生理學, 
+認知心理學, 高等認知神經科學, 神經生物與認知科學學程等. 
+
+二. 上課方式: 
+任課教師提供的課程教材, 內容過多, 不可能於所訂進度時間內教完. 因此教材將分成三類: 
+1. 基礎教材: 盡量詳細講解, 並於上課時間內上完的內容 
+2. 參考教材: 同學自修以及準備作業和期末專題時可參考的內容 
+3. 延伸學習: 同學深入瞭解之途徑 
+
+每週上課均由任課教師講解當週進度基礎教材, 不論教至何處, 上過課後當週進度即告完成. 上課中同學當然可以隨時發問, 
+但不會要求同學在課堂中小組討論或上台報告(作業繳交日及期末專題實作發表日例外). 依照歐美知名大學大部分課程 
+教學慣例, 未講解的基礎教材, 參考教材, 以及延伸學習教材, 請自行閱讀學習. 
+為得到最好學習效果, 強烈建議同學課前主動妥為預習, 上課時可攜帶具校園內無線上網功能之筆記型或平板型電腦, 一方面可隨時讀取任課老師準備之教材投影片, 或參考書籍電子版, 又可隨時搜尋網路相關資源, 下載或上傳資料至雲端 
+空間如NTUSpace, 方便註記重點, 疑問, 備份資料, 及整理所得資訊後提供的看法; 另一方面也可以隨時 
+依教學內容, 逐步跟著任課教師之說明實作或觀察課程範例內容, 或利用免費心智圖製作軟體XMind(http://actsmind.com/blog/) 
+或其他適當軟體工具, 統整紀錄聽講重點與心得, 各項上課時產生之資料均可上傳雲端, 課後隨時下載參考. 
+
+三. 作業 
+作業繳交日前每位修課同學需自訂一個本課程範圍內主題, 實作一項課程相關Python及/或Matlab程式, 並與文獻比較異同, 延伸 
+或批判其內容, 亦可提出自己的創新想法, 完成系統化討論, 以英文寫成一份8頁左右書面報告, 格式及寫作指引請參照 
+Peter Harris, Designing and Reporting Experiments in Psychology, 3rd ed., In Open Guides to Psychology.Maidenhead : McGraw-Hill Education. 2008. 
+台大電子書http://web.a.ebscohost.com/ehost/detail/detail?sid=ac4c4a5d-9dfa-4459-9d86-0b5fd79dd34c%40sessionmgr4004&crlhashurl=login.aspx%253fdirect%253dtrue%2526scope%253dsite%2526db%253dnlebk%2526db%253dnlabk%2526AN%253d234326&hid=4106&vid=0&bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#db=nlebk&AN=234326&anchor=tocAnchor
+以上書面報告請另外增添學習心得報告(可用中文)與程式碼作為附錄, 轉成一份pdf檔.同時並準備由同樣內容整理, 含標題頁之7張左右投影片power point檔,供作業討論日簡報之用. 
+書面報告pdf檔以及簡報PowerPoint合併壓縮成一個zip檔, 於作業繳交日上課前由CEIBA系統上傳. 作業每次每人繳交一份, 不可多人合交. 如為多人合作, 亦須分開撰寫不同內容. 
+作業繳交日最後一節, 輪流抽籤決定同學以其準備之投影片, 進行簡報, 若有系統展示(demo, 必要時播放預錄影片檔 
+可避免臨時出狀況)更佳. 
+
+請注意本課程與人工智慧相關領域如Neural Networks, Deep Learning, Machine Learning等有所差距, 本課程作業需結合神經科學與心理學內涵, 不宜將他處課程之作業原封不動交來. 
+
+四. 認知模型系統期末專題實作 
+課程進行中, 修課及旁聽同學自組1至3人之團隊(鼓勵不同校系所同學合作), 於第11週由CEIBA繳交團隊名單及一頁 
+之期末專題構想, 說明預定模擬之認知功能, 及可能之電腦模型軟硬體實作方法. 隨後團隊即持續合作, 以任何Python及/或Matlab工具, 
+建立可能產生此等現象之認知神經科學模擬系統, 並與認知心理學, 神經生理學, 認知神經科學, 或類似之計算認知 
+心理學主題有關文獻比較, 討論結果合理性, 相似相異處, 方法優缺點等. 
+每一團隊應寫成一份英文書面報告, 格式同樣請參照Peter Harris, Designing and Reporting Experiments in Psychology, 3rd ed., In Open Guides to Psychology.Maidenhead : McGraw-Hill Education. 2008. 
+台大電子書http://web.a.ebscohost.com/ehost/detail/detail?sid=ac4c4a5d-9dfa-4459-9d86-0b5fd79dd34c%40sessionmgr4004&crlhashurl=login.aspx%253fdirect%253dtrue%2526scope%253dsite%2526db%253dnlebk%2526db%253dnlabk%2526AN%253d234326&hid=4106&vid=0&bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#db=nlebk&AN=234326&anchor=tocAnchor
+以上書面報告請另外增添學習心得報告(可用中文)與程式碼作為附錄, 轉成一份pdf檔.同時並準備由同樣內容整理, 含標題頁之7張左右投影片power point檔,供期末專題發表會簡報之用. 
+書面報告pdf檔以及簡報PowerPoint各自壓縮成zip檔, 於期末專題發表會原上課時間前由CEIBA系統分別上傳 
+期末專題發表會, 輪流抽籤決定同學以其準備之投影片, 進行簡報, 若有系統展示(demo, 必要時播放預錄影片檔, 可避免臨時出狀況)更佳. 
+
+請注意本課程與人工智慧等之理論或研究成果領域如Neural Networks, Deep Learning, Machine Learning等有所差距, 本課程期末專題實作需結合神經科學與心理學內涵, 不宜將他處課程之Term Project原封不動交來.

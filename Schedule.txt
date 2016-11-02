@@ -1,0 +1,18 @@
+第1週	9/18	Cognitive Psychology and Python 
+第2週	9/25	Spiking Models and nengo 
+第3週	10/02	Neural Engineering Framework (NEF) 
+第4週	10/09	雙十連假 
+第5週	10/16	Semantic Pointer Architecture (SPA) 
+第6週	10/23	Neurons 
+第7週	10/30	Networks, 繳交第一次作業 
+第8週	11/06	Perceptions 
+第9週	11/13	Deep Belief Network and Autoencoder 
+第10週	11/20	Motor and Control 
+第11週	11/27	Attenion, 繳交期末專題實作分組名單及實作主題簡述 
+第12週	12/04	Short-Term and Working Memories 
+第13週	12/11	Long-Term Memory 
+第14週	12/18	Learning in General, 繳交第二次作業 
+第15週	12/25	Reinforcement Learning 
+第16週	1/01	元旦假日 
+第17週	1/08	Decision Making 
+第18週	1/15	期末專題實作成果發表會 

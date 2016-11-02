@@ -1,0 +1,79 @@
+自編教材. 
+每週教材均會將相關power point檔, pdf檔, txt檔等, 置入XMind 6之心智圖工作簿xmind檔, 放在NTUSpace雲端空間 
+供同學下載, 因此請安裝免費軟體XMind 6 (http://actsmind.com/blog/) 以便開啟閱讀 
+參考書目	本課程為一跨領域課程, 除認知心理學, 數值模擬, 及神經科學外, 亦多少涉及或可應用於哲 
+學, 神學, 經濟學, 社會學, 法學, 人類文化學, 人工智慧, 仿生學(Cybernetics), 機器人 
+學(Robotics), 機器學習(Machine Learning), 圖論(Graph Theory), 網路科學, 計算機 
+結構, IC系統設計, 藥理學, 基因科學, 分子生物學, 統計學, 教育學等範疇, 可參考之書籍 
+與論文頗多. 
+
+本課程教材除包括相關研究論文與報告外, 較相關之參考書條列如下(已通知圖書館置於參 
+考書架, 限館內閱覽): 
+
+[Computational Cognitive Neuroscience and Computational Neuroscience] 
+C. Eliasmith, How to Build a Brain: A Neural Architecture for Biological 
+Cognition (Oxford Series on Cognitive Models and Architectures), Oxford 
+University Press, 2013. 
+台大總圖Oxford Scholarship Online電子書 
+http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199794546.001.0 
+001/acprof-9780199794546 
+
+R. C. O'Reilly, Y. Munakata, T. Hazy, and M. J. Frank, Computational 
+Cognitive Neuroscience, 2nd edition, 2014. 
+電子書(Wiki book) https://grey.colorado.edu/CompCogNeuro/index.php? 
+title=CCNBook/Main 
+
+P. W. Glimcher and E. Fehr ed., Neuroeconomics: Decision Making and the 
+Brain, 2nd ed., Oxford, UK: Elsevier Inc. ( in association with the Society 
+for Neuroeconomics—www.neuroeconomics.org), 2014. 
+台大總圖ScienceDirect電子書 
+http://www.sciencedirect.com/science/book/9780124160088 
+
+
+B. Anderson, Computational Neuroscience and Cognitive Modelling: A Student's 
+Introduction to Methods and Procedures, London: SAGE, 2014. (所用數學及程式語 
+言的簡單介紹, 對非電資學院同學比較有用) 
+
+T. P. Trappenberg, Fundamentals of Computational Neuroscience, Oxford 
+University Press, 2010. 另附參考資源網址: 
+http://www.cs.dal.ca/~tt/fundamentals 
+
+D. Sterratt, B. Graham, A. Gillies, D. Willshaw, 
+Principles of Computational Modeling in Neuroscience 
+Cambridge University Press, 2011. 
+
+
+[Cognitive Neuroscience] 
+M S. Gazzaniga, R. B. Ivry, G. R. Mangun, Cognitive Neuroscience: The 
+Biology of the mind, 4th ed., New York: Norton, 2013. 
+
+D. Purves, R. Cabeza, S. A. Huettel, K. S. LaBar, M. L. 
+Platt, M. G. Woldorff, Principles of Cognitive Neuroscience, Sunderland, 
+MA, USA: Sinauer Associates, Inc.., 2013. 另附參考資源網址: 
+http://sites.sinauer.com/cogneuro2e/index.html 
+
+[Neural Science] 
+E. R Kandel ed., Principles of neural science, 5th ed., New York : McGraw- 
+Hill Medical, 2013. 
+
+[Cognitive Psychology and Psychological Science] 
+M. S. Gazzaniga, T. F. Heatherton, D. F. Halpern, Psychological 
+science, 4th ed., New York : W. W. Norton, 2013. 另附參考資源網 
+址:http://www.wwnorton.com/college/psych/psychsci4/ch/01/studyplan.aspx 
+
+[cognitive science] 
+J. L. Bermudez, Cognitive science : an introduction to the science of 
+the mind, 2nd ed., Cambridge : Cambridge University Press, 2014. 
+
+[Philosophy] 
+W. R. Uttal, Mind and Brain: A critical appraisal of cognitive neuroscience, 
+Cambridge, MA: MIT Press, 2011. 
+
+[推薦科普讀物] 
+R. Carter, Mapping the Mind, University of California Press, 2000. 
+
+R. D. Fields, The Other Brain: From dementia to schizophrenia, how new 
+discoveries about the brain are revolutionizing medicine and science, New 
+York: Simon & Schuster, 2010. 
+中文譯本: 道格拉斯.費爾茲(R. Douglas Field, Ph.D.)著 ; 楊宗宏, 楊凱雯, 潘震澤譯, 
+另一個腦 : 開啟思考、記憶健康與疾病的未知領域, 新北市 : 衛城, 2013.
