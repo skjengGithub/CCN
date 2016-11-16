@@ -1,18 +1,101 @@
-第1週	9/18	Cognitive Psychology and Python 
-第2週	9/25	Spiking Models and nengo 
-第3週	10/02	Neural Engineering Framework (NEF) 
-第4週	10/09	雙十連假 
-第5週	10/16	Semantic Pointer Architecture (SPA) 
-第6週	10/23	Neurons 
-第7週	10/30	Networks, 繳交第一次作業 
-第8週	11/06	Perceptions 
-第9週	11/13	Deep Belief Network and Autoencoder 
-第10週	11/20	Motor and Control 
-第11週	11/27	Attenion, 繳交期末專題實作分組名單及實作主題簡述 
-第12週	12/04	Short-Term and Working Memories 
-第13週	12/11	Long-Term Memory 
-第14週	12/18	Learning in General, 繳交第二次作業 
-第15週	12/25	Reinforcement Learning 
-第16週	1/01	元旦假日 
-第17週	1/08	Decision Making 
-第18週	1/15	期末專題實作成果發表會 
+第1週	2/24	Text: Sections 1.1 & 1.2 - The Science of Cognition	
+                      A brief history of cognitive science		
+                      Central features of the main approaches
+                Extension: Cognitive Psychology and Python   
+                Nengo: Install and run Nengo
+
+第2週	3/3	Text: Sections 1.3 & 1.4	
+		      Challenges for cognitive science
+                      Overview of the approach in this course
+                Extension: Spiking Models 
+		Nengo: Build a model of a single neuron
+
+第3週	3/10	Text: Sections 2.2 & 2.2.1	
+                      An introduction to basic neurophysiology and anatomy
+                      Principle 1 of the NEF - representation
+                Extension: Neurons
+                Nengo: Build a model of 1D representation
+
+第4週	3/17	Text: Sections 2.2.2	
+		      Principle 2 of the NEF - computation
+                Nengo: Build a model that computes linear and nonlinear 
+                       functions of a single variable
+
+第5週	3/24	Text: Section 2.2.3	
+                      Principle 3 of the NEF - dynamics
+                Nengo: Build a model of a 1D integrator
+
+第6週	3/31	Text: Section 2.3	
+                      Levels of description in the behavioral sciences
+		Extension: Networks
+                Nengo: Build a model at 3 levels of description
+
+第7週	4/7	Text: Sections 3.1 - 3.4	
+                      Overview of the semantic pointer hypothesis
+                      Distributed neural semantics
+                Nengo: Build a model of 2D (and/or higher-D) representation
+                繳交第一次作業 
+
+第8週	4/14	Text: Sections 3.5 - 3.7	
+                      An introduction to visual semantics
+                      An introduction to motor semantics
+		Extension: Perceptions
+                Nengo: Build a model of 2D nonlinear computation (multiplication)
+ 
+
+第9週	4/21	Extension: Deep Belief Network and Autoencoder 
+
+第10週	4/28	Text: Sections 4.1 - 4.4 & 4.6	
+                      Syntactic representations
+                      Vector symbolic architectures
+                      Implementations of VSAs in neurons
+		Nengo: Build a binding neural network
+
+
+第11週	5/5	Text: Sections 4.5, 4.6 & 4.7	
+                      Learning syntactic manipulations
+                      Modeling fluid intelligence
+                      Syntax and semantics for structured concepts
+                Nengo: Build a model that learns an unknown syntactic transformation
+                繳交期末專題實作分組名單及實作主題簡述 
+
+第12週	5/12	Text: Sections 5.1-5.3	
+                      Basal ganglia anatomy and physiology
+                      Basal ganglia function
+                Nengo: Build a basal ganglia model that selects among 5 actionsAttenion
+
+
+第13週	5/19	Text: Sections 5.4, 5.6-5.8	
+                      Basal ganglia use for flexible action selection
+                      Example uses of the basal ganglia model in the SPA
+		Extension: Decision Making
+                Nengo: Build a question answering model with control
+
+
+第14週	5/26	Text: Sections 6.1-6.3	
+                      Introduction to cognition through time
+                      Working memory and serial working memory
+                Extension: Short-time and long-time memory
+                Nengo: Build a (serial) working memory model
+                繳交第二次作業 
+
+第15週	6/2	Text: Sections 6.4-6.6	
+                      Spike-timing dependent plasticity (STDP)
+                      Reinforcement learning
+                      Learning transformations with the hPES rule
+		Extension: Learning in General
+                Nengo: Build a network that learns an arbitrary 1D transformation
+
+
+第16週	6/9	Text: Sections 7.1-7.3	
+                      A review and overview of the SPA
+                      The Spaun model and tasks
+                Nengo: Build a question answering model with control
+
+第17週	6/16	Text: Section 7.4	
+                      Probabilistic models
+                      Interpreting the SPA as a probabilistic model
+                Nengo: Build a model to do a simple statistical inference problem
+ 
+
+第18週	6/23	期末專題實作成果發表會 

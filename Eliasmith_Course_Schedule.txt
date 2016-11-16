@@ -1,0 +1,110 @@
+Lecture	Readings	Topics	Assignment
+
+Week 1	Sections 1.1 & 1.2 - The Science of Cognition	
+A brief history of cognitive science
+Central features of the main approaches
+Install and run Nengo
+
+Week 2	Sections 1.3 & 1.4	
+Challenges for cognitive science
+Overview of the approach in this course
+Build a model of a single neuron
+
+Week 3	Sections 2.2 & 2.2.1	
+An introduction to basic neurophysiology and anatomy
+Principle 1 of the NEF - representation
+Build a model of 1D representation
+
+Week 4	Sections 2.2.2	
+Principle 2 of the NEF - computation
+Build a model that computes linear and nonlinear functions of a single variable
+
+Week 5	Section 2.2.3	
+Principle 3 of the NEF - dynamics
+Build a model of a 1D integrator
+
+Week 6 (optional)	Section 2.6	
+Levels of description in the behavioral sciences
+Build a model at 3 levels of description
+
+Week 7	Sections 3.1 - 3.4	
+Overview of the semantic pointer hypothesis
+Distributed neural semantics
+Build a model of 2D (and/or higher-D) representation
+
+Week 8	Sections 3.5 - 3.7	
+An introduction to visual semantics
+An introduction to motor semantics
+Build a model of 2D nonlinear computation (multiplication)
+
+Week 9	Sections 4.1 - 4.4 & 4.6	
+Syntactic representations
+Vector symbolic architectures
+Implementations of VSAs in neurons
+Build a binding neural network
+
+Week 10 (optional)	Sections 4.5, 4.6 & 4.7	
+Learning syntactic manipulations
+Modeling fluid intelligence
+Syntax and semantics for structured concepts
+Build a model that learns an unknown syntactic transformation
+
+Week 11	Sections 5.1-5.3	
+Basal ganglia anatomy and physiology
+Basal ganglia function
+Build a basal ganglia model that selects among 5 actions
+
+Week 12	Sections 5.4, 5.6-5.8	
+Basal ganglia use for flexible action selection
+Example uses of the basal ganglia model in the SPA
+Build a question answering model with control
+
+Week 13	Sections 6.1-6.3	
+Introduction to cognition through time
+Working memory and serial working memory
+Build a (serial) working memory model
+
+Week 14	Sections 6.4-6.6	
+Spike-timing dependent plasticity (STDP)
+Reinforcement learning
+Learning transformations with the hPES rule
+Build a network that learns an arbitrary 1D transformation
+
+Week 15	Sections 7.1-7.3	
+A review and overview of the SPA
+The Spaun model and tasks
+Build a question answering model with control
+
+Week 16 (optional)	Section 7.4	
+Probabilistic models
+Interpreting the SPA as a probabilistic model
+Build a model to do a simple statistical inference problem
+
+Week 17	Chapter 8	
+Evaluating cognitive theories
+Detailed discussion of the core cognitive criteria
+Begin a course project, using tutorial 8 as an example
+
+Week 18	Chapter 9	
+A survey of other approaches to cognitive modelling
+A comparison of the SPA with past approaches
+Course project
+
+Week 19	Chapter 10	
+Conceptual consequences of the SPA and NEF methods
+Future challenges for this and other approaches
+Course project
+
+Assignment details
+The assignments above mirror those in the book. It is also useful to ask questions about the functioning of the models being built, 
+and to ask students to change the models slightly to examine different aspects of neural/cognitive processing.
+The intent of this section of the website is to provide examples of such questions, as we develop them. Suggestions welcome.
+
+Suggested projects
+More suggestions welcome.
+
+Build a creature to seek food and return to a home nest
+Build a serial working memory model that allows for loading, reset, etc.
+Build a robot controller for a robot that you present instructions to, that it memorizes and then executes.
+Build an adaptive controller for a 3-link arm using Slotine's adaptation methods.
+Build a model that does any one of the tasks in Spaun.
