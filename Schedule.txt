@@ -39,7 +39,7 @@
 ²Ä8¶g	4/14	Text: Sections 3.5 - 3.7	
                       An introduction to visual semantics
                       An introduction to motor semantics
-		Extension: Perceptions
+		Extension: Perceptions, Auditory system
                 Nengo: Build a model of 2D nonlinear computation (multiplication)
  
 
