@@ -7,8 +7,8 @@ http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199794546.001.0
 001/acprof-9780199794546 
 
 自編教材. 
-每週教材均為教科書相關內容及其延伸. 相關power point檔, pdf檔, txt檔等, 將會置入XMind 8之心智圖工作簿xmind檔, 放在NTUSpace雲端空間 
-供同學下載, 因此請安裝免費軟體XMind 8 (http://actsmind.com/blog/) 以便開啟閱讀 
+每週教材均為教科書相關內容及有關文獻重點提示. 相關power point檔, pdf檔, txt檔等, 將會置入XMind 8之心智圖工作簿xmind檔, 
+放在NTUSpace雲端空間供同學下載, 因此請安裝免費軟體XMind 8 (http://actsmind.com/blog/) 以便開啟閱讀. 
 
 參考書目	
 本課程為一跨領域課程, 除認知心理學, 數值模擬, 及神經科學外, 亦多少涉及或可應用於
@@ -67,14 +67,13 @@ J. L. Bermudez, Cognitive science : an introduction to the science of
 the mind, 2nd ed., Cambridge : Cambridge University Press, 2014. 
 
 [Philosophy] 
+Stuart M. Shieber, The Turing Test:Verbal Behavior as the Hallmark of Intelligence,
+MA: MIT Press, 2004.
+台大總圖IEEE Xplore電子書,
+http://ieeexplore.ieee.org/xpl/bkabstractplus.jsp?bkn=6267336
+
 W. R. Uttal, Mind and Brain: A critical appraisal of cognitive neuroscience, 
 Cambridge, MA: MIT Press, 2011. 
 
 [推薦科普讀物] 
 R. Carter, Mapping the Mind, University of California Press, 2000. 
-
-R. D. Fields, The Other Brain: From dementia to schizophrenia, how new 
-discoveries about the brain are revolutionizing medicine and science, New 
-York: Simon & Schuster, 2010. 
-中文譯本: 道格拉斯.費爾茲(R. Douglas Field, Ph.D.)著 ; 楊宗宏, 楊凱雯, 潘震澤譯, 
-另一個腦 : 開啟思考、記憶健康與疾病的未知領域, 新北市 : 衛城, 2013.

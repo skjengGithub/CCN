@@ -1,7 +1,9 @@
 一. 預修科目: 
 1. 計算機程式設計: 本課程絕大部分的的範例, 作業, 期末專題等, 均使用Python與Matlab及二者有關的函式庫. 
 修課同學不一定要學過Python, 課程中會有簡介, 但同學最好開學前就能對以下一般程式語言觀念有相當的了解: 變數, if...else, 
-迴圈(for, while, do...while), 函式(function), 一,二維陣列, 類別(class)與物件(object). 更實際一點來說, 如果能相當清楚以下YouTube影片介紹的Python內容, 對本課程的學習應該就沒有問題: D. Banas, Python Programming (Learn Python in One Video,約45分鐘), https://www.youtube.com/watch?v=N4mEzFDjqtA 
+迴圈(for, while, do...while), 函式(function), 一,二維陣列, 類別(class)與物件(object). 更實際一點來說, 
+如果能相當清楚以下YouTube影片介紹的Python內容, 對本課程的學習應該就沒有問題: 
+D. Banas, Python Programming (Learn Python in One Video,約45分鐘), https://www.youtube.com/watch?v=N4mEzFDjqtA 
 至於MATLAB, 本課程將會提供T. P. Trappenberg, Fundamentals of Computational Neuroscience, Oxford 
 University Press, 2010書中的附錄E: A brief introduction to MATLAB作為入門參考 
 . 
@@ -19,13 +21,13 @@ conditional probability, Bayes定理等.
 2. 參考教材: 同學自修以及準備作業和期末專題時可參考的內容 
 3. 延伸學習: 同學深入瞭解之途徑 
 
-每週上課前三節講解教材, 第四節盡量讓每位同學對課程內容問題發問, 一起探討 Nengo 與 Robot Operating System
-的應用與實作, 以及報告作業和期末專題的構想和進度, 供同學們共同討論.
+每週上課前三節講解教材, 第四節盡量讓每位同學對課程內容發問討論, 並一起探討 Nengo 與 Robot Operating System
+的應用與實作, 以及輪流報告作業和期末專題的構想和進度.
+
 為得到最好學習效果, 強烈建議同學課前主動妥為預習, 上課時可攜帶具校園內無線上網功能之筆記型或平板型電腦, 
 除每週第四節之討論與實作指導外, 可隨時讀取任課老師準備之教材投影片, 或參考書籍電子版, 又可隨時搜尋網路相關資源, 
-下載或上傳資料至雲端空間如NTUSpace, 方便課內課外利用電子筆記本如Evernote或OneNote註記重點, 疑問, 備份資料, 
+下載或上傳資料至雲端空間如NTUSpace, 方便課內課外利用電子筆記本如Evernote或OneNote註記重點, 疑問, 心得, 備份資料, 
 及整理所得資訊後提供的看法; 另一方面也可以隨時依教學內容, 逐步跟著任課教師之說明實作或觀察課程範例內容, 
-或利用免費心智圖製作軟體XMind(http://actsmind.com/blog/)或其他適當軟體工具, 統整紀錄聽講重點與心得. 
 
 三. 作業 
 作業繳交日前每位修課同學需自訂一個本課程範圍內主題, 實作一項課程相關Python及/或Matlab程式, 並與文獻比較異同, 延伸 
@@ -48,6 +50,7 @@ Peter Harris, Designing and Reporting Experiments in Psychology, 3rd ed., In Ope
 Robot Operating System 內的工具, 設計簡化的機器人軟體模型及其模擬環境. 隨後團隊即持續合作, 以任何Python及/或Matlab工具, 
 建立可能產生此等現象之認知神經科學模擬系統, 並與認知心理學, 神經生理學, 認知神經科學, 或類似之計算認知 
 心理學主題有關文獻比較, 討論結果合理性, 相似相異處, 方法優缺點等. 
+
 每一團隊應寫成一份英文書面報告, 格式同樣請參照Peter Harris, Designing and Reporting Experiments in Psychology, 3rd ed., In Open Guides to Psychology.Maidenhead : McGraw-Hill Education. 2008. 
 台大電子書http://web.a.ebscohost.com/ehost/detail/detail?sid=ac4c4a5d-9dfa-4459-9d86-0b5fd79dd34c%40sessionmgr4004&crlhashurl=login.aspx%253fdirect%253dtrue%2526scope%253dsite%2526db%253dnlebk%2526db%253dnlabk%2526AN%253d234326&hid=4106&vid=0&bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#db=nlebk&AN=234326&anchor=tocAnchor
 以上書面報告請另外增添學習心得報告(可用中文)與程式碼作為附錄, 轉成一份pdf檔.同時並準備由同樣內容整理, 

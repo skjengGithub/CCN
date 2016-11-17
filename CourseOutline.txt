@@ -42,25 +42,27 @@ Machine Learning仍有一些差距, 作業與實作應包含神經科學及心理學內涵, 不宜將其他課
 電腦發明後, 人們也開始設想電腦的人工智慧有沒有 
 可能超越人類的智能(超過的那一天, 被稱為Singularity), 電腦能力全面超過人類後的情境, 
 在科幻電影如"全面進化"(https://www.youtube.com/watch?v=PS879Fj3O_k), "魔鬼終結者," "駭客任務"等, 
-在在可看出人類對於提高電腦智能又害怕又期待的心態. 然而要提高電腦智能, 
-如同名科幻小說家Issac Assimov所撰寫的短篇小說<<天堂異鄉人>>(Stranger in Paradise, 收錄於葉李華譯, 
-短篇機器人小說全集)所顯示, 機器人學應該與研究大腦的"智人學"合作, 仔細探討人類智能(大部分以認知行為呈現)
-的神經科學機制, 進一步應用於機器人設計, 才能達成更易溝通的高效能機器人.
+在在可看出人類對於提高電腦智能又害怕又期待的心態. 然而要提高電腦智能, 由過去認知科學的研究經驗得知,
+電腦認知演算法, 如自動語音辨識, 圖形識別, 深度學習等, 由人腦或生物認知(Biologically Inspired)結構簡化衍生的方法,
+多半具備較佳的效能. 因此, 如同科幻小說家Issac Assimov所撰寫的短篇小說<<天堂異鄉人>>(Stranger in Paradise, 收錄於葉李華譯, 
+艾西莫夫機器人[短篇全集-全新修訂版(上)], 台北市:貓頭鷹出版社, 2014, 頁119~149)所顯示, 機器人學應該與研究大腦的"智人學"
+合作, 仔細探討人類智能(大部分以認知行為呈現)的神經科學機制, 應用於機器人研發, 才可能避免複雜到無法處理的設計,
+製造出高效能機器人. 
 
 除了能力更像或可能超過人類的機器人設計外, 對大腦認知機制的研究, 更可能為人類的認知行為了解以及認知疾病
-如帕金森氏症, 阿茲海默症等的病理機轉與緩解等帶來曙光, 因此過去一,二十年, 對神經細胞與系統, 
+如帕金森氏症, 阿茲海默症等的病理機轉與緩解, 讓肢障人士得以應用"想像"使用義肢("神經機器人學"(Neurorobotics)
+主要課題之一)等帶來曙光, 因此過去一,二十年, 對神經細胞與系統, 
 尤其是腦神經與認知行為的關聯, 有近乎爆炸性的研究發展與應用. 先進各國紛紛投入大量人力及鉅資進行大規模的研究. 
 著名的研究計畫如美國的 
 The BRAIN Initiative (http://www.nih.gov/science/brain/, 
 http://en.wikipedia.org/wiki/BRAIN_Initiative), 
 歐盟的The Human Brain Project (https://www.humanbrainproject.eu/, 
-http://en.wikipedia.org/wiki/Human_Brain_Project), 及已進行多年, 使用IBM超級電腦的 
+http://en.wikipedia.org/wiki/Human_Brain_Project), 已進行多年, 使用IBM超級電腦的 
 The Blue Brain Project (http://bluebrain.epfl.ch/, http://en.wikipedia.org/wiki/Blue_Brain_Project ), 
 由腦神經科學啟發, 顛覆傳統馮.紐曼架構的非傳統類神經網路平行運算硬體系統 
 SpiNNaker(http://apt.cs.manchester.ac.uk/projects/SpiNNaker/project/, S. B. Furber, et. al. 
 "The SpiNNaker Project," IEEE Proceedings, vol.102, no.5, 2014, pp 652-665; S. B. Furber et. al.,
-"Overview of the SpiNNaker System Architecture," IEEE Transactions on Computers, vol. 62, no. 12, 2013, pp. 2454 - 2467),
-以及"神經機器人學"(Neurorobotics)主要研究範疇之一:讓肢障人士得以應用"想像"使用義肢等.
+"Overview of the SpiNNaker System Architecture," IEEE Transactions on Computers, vol. 62, no. 12, 2013, pp. 2454 - 2467)等.
 
 國內多年前即有認知科學及神經科學方面的研究教學單位接連成立, 並有數位先進執行類似研究計畫. 
 台大亦先後成立神經生物與認知科學研究中心, 神經生物與認知科學學程, 腦與心智研究所, 系統生物學研究中心, 等單位或學程. 
@@ -69,9 +71,11 @@ SpiNNaker(http://apt.cs.manchester.ac.uk/projects/SpiNNaker/project/, S. B. Furb
 任課教師所知, 國內研究大多採用動物實驗數據, 腦波, 或生物影像觀察及推論等方法, 
 從事神經模擬方面研究的先進不算多. 雖然國內先進已有豐碩研究成果, 但仍少有課程強調計算機模擬之重要性與詳細說明其方法.
 更無論其在機器人設計的應用.
+
 有鑑於計算認知神經科學的重要性日增, 依據先前兩次開課經驗及修課同學回饋建議, 參考本課程教科書作者建議的授課進度表,
 調整課程重點內容及若干教學與評量方式, 再度開設本課程, 盼望有興趣的的老師專家學者先進與同學共同參與討論, 指導, 學習, 
-俾可提升台灣計算認知神經科學知識的普及與研究能力, 任課教師亦可得集思廣益, 學而時習之, 不知老之將至之樂. 
+俾可提升台灣計算認知神經科學知識的普及與研究能力, 任課教師亦可得集思廣益, 學而時習之, 不知老之將至之樂.
+ 
 此外, 本校神經認知學程與相關系所提供亦若干門認知神經科學及心理與神經資訊學課程, 在生醫及心理領域的內容,
 遠較本課程所授完整深入, 同學可考慮一併或先後選修旁聽, 
 作為本課程於認知神經科學與心理學方面加深加廣的學習, 應可大幅增進學習成效. 
