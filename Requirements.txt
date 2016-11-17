@@ -19,33 +19,39 @@ conditional probability, Bayes定理等.
 2. 參考教材: 同學自修以及準備作業和期末專題時可參考的內容 
 3. 延伸學習: 同學深入瞭解之途徑 
 
-每週上課前三節講解教材, 第四節共同討論, 盡量讓每位同學詢問課程內容問題, 以及作業和期末專題的構想和進度.
+每週上課前三節講解教材, 第四節盡量讓每位同學對課程內容問題發問, 一起探討 Nengo 與 Robot Operating System
+的應用與實作, 以及報告作業和期末專題的構想和進度, 供同學們共同討論.
 為得到最好學習效果, 強烈建議同學課前主動妥為預習, 上課時可攜帶具校園內無線上網功能之筆記型或平板型電腦, 
-一方面可隨時讀取任課老師準備之教材投影片, 或參考書籍電子版, 又可隨時搜尋網路相關資源, 下載或上傳資料至雲端 
-空間如NTUSpace, 方便註記重點, 疑問, 備份資料, 及整理所得資訊後提供的看法; 另一方面也可以隨時 
-依教學內容, 逐步跟著任課教師之說明實作或觀察課程範例內容, 或利用免費心智圖製作軟體XMind(http://actsmind.com/blog/) 
-或其他適當軟體工具, 統整紀錄聽講重點與心得. 
+除每週第四節之討論與實作指導外, 可隨時讀取任課老師準備之教材投影片, 或參考書籍電子版, 又可隨時搜尋網路相關資源, 
+下載或上傳資料至雲端空間如NTUSpace, 方便課內課外利用電子筆記本如Evernote或OneNote註記重點, 疑問, 備份資料, 
+及整理所得資訊後提供的看法; 另一方面也可以隨時依教學內容, 逐步跟著任課教師之說明實作或觀察課程範例內容, 
+或利用免費心智圖製作軟體XMind(http://actsmind.com/blog/)或其他適當軟體工具, 統整紀錄聽講重點與心得. 
 
 三. 作業 
 作業繳交日前每位修課同學需自訂一個本課程範圍內主題, 實作一項課程相關Python及/或Matlab程式, 並與文獻比較異同, 延伸 
 或批判其內容, 亦可提出自己的創新想法, 完成系統化討論, 以英文寫成一份8頁左右書面報告, 格式及寫作指引請參照 
 Peter Harris, Designing and Reporting Experiments in Psychology, 3rd ed., In Open Guides to Psychology.Maidenhead : McGraw-Hill Education. 2008. 
 台大電子書http://web.a.ebscohost.com/ehost/detail/detail?sid=ac4c4a5d-9dfa-4459-9d86-0b5fd79dd34c%40sessionmgr4004&crlhashurl=login.aspx%253fdirect%253dtrue%2526scope%253dsite%2526db%253dnlebk%2526db%253dnlabk%2526AN%253d234326&hid=4106&vid=0&bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#db=nlebk&AN=234326&anchor=tocAnchor
-以上書面報告請另外增添學習心得報告(可用中文)與程式碼作為附錄, 轉成一份pdf檔.同時並準備由同樣內容整理, 含標題頁之7張左右投影片power point檔,供作業討論日簡報之用. 
-書面報告pdf檔以及簡報PowerPoint合併壓縮成一個zip檔, 於作業繳交日上課前由CEIBA系統上傳. 作業每次每人繳交一份, 不可多人合交. 如為多人合作, 亦須分開撰寫不同內容. 
+以上書面報告請另外增添學習心得報告(可用中文)與程式碼作為附錄, 轉成一份pdf檔.同時並準備由同樣內容整理, 
+含標題頁之7張左右投影片power point檔,供作業討論日簡報之用. 
+書面報告pdf檔以及簡報PowerPoint合併壓縮成一個zip檔, 於作業繳交日上課前由CEIBA系統上傳. 作業每次每人繳交一份, 
+不可多人合交. 如為多人合作, 亦須分開撰寫不同內容. 
 作業繳交日最後一節, 輪流抽籤決定同學以其準備之投影片, 進行簡報, 若有系統展示(demo, 必要時播放預錄影片檔 
 可避免臨時出狀況)更佳. 
 
-請注意本課程與人工智慧相關領域如Neural Networks, Deep Learning, Machine Learning等有所差距, 本課程作業需結合神經科學與心理學內涵, 不宜將他處課程之作業原封不動交來. 
+請注意本課程與人工智慧相關領域如Neural Networks, Deep Learning, Machine Learning等有所差距, 
+本課程作業需結合神經科學與心理學內涵, 不宜將他處課程之作業原封不動交來. 
 
 四. 認知模型系統期末專題實作 
 課程進行中, 修課及旁聽同學自組1至3人之團隊(鼓勵不同校系所同學合作), 於第11週由CEIBA繳交團隊名單及一頁 
-之期末專題構想, 說明預定模擬之認知功能, 及可能之電腦模型軟硬體實作方法. 隨後團隊即持續合作, 以任何Python及/或Matlab工具, 
+之期末專題構想, 說明預定模擬之認知功能, 及可能之電腦模型軟硬體實作方法, 完成之計算模型, 鼓勵使用
+Robot Operating System 內的工具, 設計簡化的機器人軟體模型及其模擬環境. 隨後團隊即持續合作, 以任何Python及/或Matlab工具, 
 建立可能產生此等現象之認知神經科學模擬系統, 並與認知心理學, 神經生理學, 認知神經科學, 或類似之計算認知 
 心理學主題有關文獻比較, 討論結果合理性, 相似相異處, 方法優缺點等. 
 每一團隊應寫成一份英文書面報告, 格式同樣請參照Peter Harris, Designing and Reporting Experiments in Psychology, 3rd ed., In Open Guides to Psychology.Maidenhead : McGraw-Hill Education. 2008. 
 台大電子書http://web.a.ebscohost.com/ehost/detail/detail?sid=ac4c4a5d-9dfa-4459-9d86-0b5fd79dd34c%40sessionmgr4004&crlhashurl=login.aspx%253fdirect%253dtrue%2526scope%253dsite%2526db%253dnlebk%2526db%253dnlabk%2526AN%253d234326&hid=4106&vid=0&bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#db=nlebk&AN=234326&anchor=tocAnchor
-以上書面報告請另外增添學習心得報告(可用中文)與程式碼作為附錄, 轉成一份pdf檔.同時並準備由同樣內容整理, 含標題頁之7張左右投影片power point檔,供期末專題發表會簡報之用. 
+以上書面報告請另外增添學習心得報告(可用中文)與程式碼作為附錄, 轉成一份pdf檔.同時並準備由同樣內容整理, 
+含標題頁之7張左右投影片power point檔,供期末專題發表會簡報之用. 
 書面報告pdf檔以及簡報PowerPoint各自壓縮成zip檔, 於期末專題發表會原上課時間前由CEIBA系統分別上傳 
 期末專題發表會, 輪流抽籤決定同學以其準備之投影片, 進行簡報, 若有系統展示(demo, 必要時播放預錄影片檔, 可避免臨時出狀況)更佳. 
 
