@@ -1,16 +1,4 @@
-自編教材. 
-每週教材均會將相關power point檔, pdf檔, txt檔等, 置入XMind 6之心智圖工作簿xmind檔, 放在NTUSpace雲端空間 
-供同學下載, 因此請安裝免費軟體XMind 6 (http://actsmind.com/blog/) 以便開啟閱讀 
-參考書目	本課程為一跨領域課程, 除認知心理學, 數值模擬, 及神經科學外, 亦多少涉及或可應用於哲 
-學, 神學, 經濟學, 社會學, 法學, 人類文化學, 人工智慧, 仿生學(Cybernetics), 機器人 
-學(Robotics), 機器學習(Machine Learning), 圖論(Graph Theory), 網路科學, 計算機 
-結構, IC系統設計, 藥理學, 基因科學, 分子生物學, 統計學, 教育學等範疇, 可參考之書籍 
-與論文頗多. 
-
-本課程教材除包括相關研究論文與報告外, 較相關之參考書條列如下(已通知圖書館置於參 
-考書架, 限館內閱覽): 
-
-[Computational Cognitive Neuroscience and Computational Neuroscience] 
+教科書
 C. Eliasmith, How to Build a Brain: A Neural Architecture for Biological 
 Cognition (Oxford Series on Cognitive Models and Architectures), Oxford 
 University Press, 2013. 
@@ -18,6 +6,19 @@ University Press, 2013.
 http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199794546.001.0 
 001/acprof-9780199794546 
 
+自編教材. 
+每週教材均為教科書相關內容及其延伸. 相關power point檔, pdf檔, txt檔等, 將會置入XMind 8之心智圖工作簿xmind檔, 放在NTUSpace雲端空間 
+供同學下載, 因此請安裝免費軟體XMind 8 (http://actsmind.com/blog/) 以便開啟閱讀 
+
+參考書目	
+本課程為一跨領域課程, 除認知心理學, 數值模擬, 及神經科學外, 亦多少涉及或可應用於
+機器人學(Robotics), 機器學習(Machine Learning), 圖論(Graph Theory), 網路科學, 哲 
+學, 人工智慧, 計算機結構等範疇, 可參考之書籍與論文頗多. 
+
+本課程教材除包括教科書, 研究論文與報告外, 較相關之參考書條列如下(實體書已通知圖書館置於參 
+考書架, 限館內閱覽): 
+
+[Computational Cognitive Neuroscience and Computational Neuroscience] 
 R. C. O'Reilly, Y. Munakata, T. Hazy, and M. J. Frank, Computational 
 Cognitive Neuroscience, 2nd edition, 2014. 
 電子書(Wiki book) https://grey.colorado.edu/CompCogNeuro/index.php? 
@@ -61,7 +62,7 @@ M. S. Gazzaniga, T. F. Heatherton, D. F. Halpern, Psychological
 science, 4th ed., New York : W. W. Norton, 2013. 另附參考資源網 
 址:http://www.wwnorton.com/college/psych/psychsci4/ch/01/studyplan.aspx 
 
-[cognitive science] 
+[Cognitive Science] 
 J. L. Bermudez, Cognitive science : an introduction to the science of 
 the mind, 2nd ed., Cambridge : Cambridge University Press, 2014. 
 
