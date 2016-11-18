@@ -6,6 +6,11 @@ University Press, 2013.
 http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199794546.001.0 
 001/acprof-9780199794546 
 
+實作軟體
+python 程式語言整合開發環境: PyCharm: https://www.jetbrains.com/pycharm/
+Nengo (Neural ENGineering Objects) 認知神經科學模型開發工具: http://www.nengo.ca/
+ROS (Robot Operating System) 機器人模擬系統: http://www.ros.org/
+
 自編教材. 
 每週教材均為教科書相關內容及有關文獻重點提示. 相關power point檔, pdf檔, txt檔等, 將會置入XMind 8之心智圖工作簿xmind檔, 
 放在NTUSpace雲端空間供同學下載, 因此請安裝免費軟體XMind 8 (http://actsmind.com/blog/) 以便開啟閱讀. 
@@ -74,6 +79,11 @@ http://ieeexplore.ieee.org/xpl/bkabstractplus.jsp?bkn=6267336
 
 W. R. Uttal, Mind and Brain: A critical appraisal of cognitive neuroscience, 
 Cambridge, MA: MIT Press, 2011. 
+
+[ROS]
+M. Quigley, B. Gerkey, and W. D. Smart, Programming Robots with ROS: 
+A practical introduction to the Robot Operating System, Sebastopol, CA:
+O'Reilly Media, Inc., 2015.
 
 [推薦科普讀物] 
 R. Carter, Mapping the Mind, University of California Press, 2000. 
