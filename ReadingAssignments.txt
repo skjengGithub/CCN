@@ -7,7 +7,7 @@ http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199794546.001.0
 001/acprof-9780199794546 
 
 實作軟體
-python 程式語言整合開發環境: PyCharm: https://www.jetbrains.com/pycharm/
+python 程式語言整合開發環境 PyCharm: https://www.jetbrains.com/pycharm/
 Nengo (Neural ENGineering Objects) 認知神經科學模型開發工具: http://www.nengo.ca/
 ROS (Robot Operating System) 機器人模擬系統: http://www.ros.org/
 

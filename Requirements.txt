@@ -1,11 +1,9 @@
 一. 預修科目: 
-1. 計算機程式設計: 本課程絕大部分的的範例, 作業, 期末專題等, 均使用Python與Matlab及二者有關的函式庫. 
+1. 計算機程式設計: 本課程絕大部分的的範例, 作業, 期末專題等, 均使用Python程式語言. 
 修課同學不一定要學過Python, 課程中會有簡介, 但同學最好開學前就能對以下一般程式語言觀念有相當的了解: 變數, if...else, 
 迴圈(for, while, do...while), 函式(function), 一,二維陣列, 類別(class)與物件(object). 更實際一點來說, 
 如果能相當清楚以下YouTube影片介紹的Python內容, 對本課程的學習應該就沒有問題: 
 D. Banas, Python Programming (Learn Python in One Video,約45分鐘), https://www.youtube.com/watch?v=N4mEzFDjqtA 
-至於MATLAB, 本課程將會提供T. P. Trappenberg, Fundamentals of Computational Neuroscience, Oxford 
-University Press, 2010書中的附錄E: A brief introduction to MATLAB作為入門參考 
 . 
 
 2. 機率與統計, 例如probability density function, 期望值, mean, variance, Gaussian distribution, Poisson distribution, random variables, 
@@ -21,7 +19,7 @@ conditional probability, Bayes定理等.
 2. 參考教材: 同學自修以及準備作業和期末專題時可參考的內容 
 3. 延伸學習: 同學深入瞭解之途徑 
 
-每週上課前三節講解教材, 第四節為實作討論課, 盡量讓每位同學報告 Nengo 與 ROS的實作心得, 
+每週上課前三節講解教材, 第四節為討論課, 盡量讓每位同學報告 Nengo 與 ROS的使用心得, 
 以及作業和期末專題的構想和進度. 聽講同學自由發問討論, 任課教師會在同學討論告一段落後, 提供自己的看法與建議.
 
 為得到最好學習效果, 強烈建議同學課前主動妥為預習, 上課時可攜帶具校園內無線上網功能之筆記型或平板型電腦, 
@@ -47,9 +45,16 @@ Peter Harris, Designing and Reporting Experiments in Psychology, 3rd ed., In Ope
 四. 認知模型系統期末專題實作 
 課程進行中, 修課及旁聽同學自組1至3人之團隊(鼓勵不同校系所同學合作), 於第11週由CEIBA繳交團隊名單及一頁 
 之期末專題構想, 說明預定模擬之認知功能, 及可能之電腦模型軟硬體實作方法, 完成之計算模型, 鼓勵使用
-Robot Operating System 內的工具, 設計簡化的機器人軟體模型及其模擬環境. 隨後團隊即持續合作, 以任何Python及/或Matlab工具, 
+Robot Operating System 內的工具, 設計簡化的機器人軟體模型及其模擬環境. 隨後團隊即持續合作, 以Nengo及Python
 建立可能產生此等現象之認知神經科學模擬系統, 並與認知心理學, 神經生理學, 認知神經科學, 或類似之計算認知 
-心理學主題有關文獻比較, 討論結果合理性, 相似相異處, 方法優缺點等. 
+心理學主題有關文獻比較, 討論結果合理性, 相似相異處, 方法優缺點等.
+
+專題實作主題建議(取自教科書網頁: Using the book as a text, http://www.nengo.ca/build-a-brain/textbookuse)
+Build a creature to seek food and return to a home nest
+Build a serial working memory model that allows for loading, reset, etc.
+Build a robot controller for a robot that you present instructions to, that it memorizes and then executes.
+Build an adaptive controller for a 3-link arm using Slotine's adaptation methods.
+Build a model that does any one of the tasks in Spaun. 
 
 每一團隊應寫成一份英文書面報告, 格式同樣請參照Peter Harris, Designing and Reporting Experiments in Psychology, 3rd ed., In Open Guides to Psychology.Maidenhead : McGraw-Hill Education. 2008. 
 台大電子書http://web.a.ebscohost.com/ehost/detail/detail?sid=ac4c4a5d-9dfa-4459-9d86-0b5fd79dd34c%40sessionmgr4004&crlhashurl=login.aspx%253fdirect%253dtrue%2526scope%253dsite%2526db%253dnlebk%2526db%253dnlabk%2526AN%253d234326&hid=4106&vid=0&bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#db=nlebk&AN=234326&anchor=tocAnchor
