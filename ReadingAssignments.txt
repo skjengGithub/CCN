@@ -13,8 +13,8 @@ python 程式語言整合開發環境 PyCharm: https://www.jetbrains.com/pycharm/
 Nengo (Neural ENGineering Objects) 認知神經科學模型開發工具: http://www.nengo.ca/
 Nengo手冊: http://pythonhosted.org/nengo/
 Nengo 範例: http://pythonhosted.org/nengo/examples.html
-ROS (Robot Operating System) 機器人作業系統: http://www.ros.org/, 內含
-Gazebo 機器人模擬系統
+ROS (Robot Operating System) 機器人作業系統: http://www.ros.org/, 
+僅支援Ubuntu系統(所以Windows及蘋果OS電腦可能要安裝雙系統), 內含Gazebo 機器人模擬系統
 
 自編教材. 
 每週教材均為教科書相關內容及有關文獻重點提示. 相關power point檔, pdf檔, txt檔等, 將會置入XMind 8之心智圖工作簿xmind檔, 
