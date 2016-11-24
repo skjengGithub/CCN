@@ -1,0 +1,398 @@
+計算認知神經科學
+Computational Cognitive Neuroscience
+學期	105-2
+授課對象
+電機所	電信所	生醫電資所
+課號	EE 5156
+班次	
+學分(數)	3
+必/選修	選修	選修	選修
+教師	鄭士康
+全/半年	半年
+上課時間	星期五 7,8,9,10
+上課地點	電二 xxx
+
+
+注意:本課程將需主動投入甚多時間搜尋閱讀可能超過課程進度或範圍之大量且結論可能互相矛盾的參考書籍, 文獻, 及 
+網路資源; 且必須撰寫作業報告及分組完成期末專題實作, 兩者均需完成認知行為之模型實作, 並能討論其成果. 課業繁重, 
+學習較被動, 無強烈決心及毅力之同學請慎重考慮. 
+
+注意: 作業及期末專題之書面報告, 不允許直接照抄或翻譯文獻中之文句(此為嚴重違反學術倫理之行為, 一經查獲, 
+該項成績將以零分計.(若在美國名校, 將導致被開除之後果. 倘此舉發生於投稿論文, 將使有關當事人均喪失信譽, 難以在學術界立足). 
+同時請注意: 本課程與人工智慧相關課程如Artificial Intelligence, Artificial Neural Networks, Deep Learning, 
+Machine Learning仍有一些差距, 作業與實作應包含神經科學及心理學內涵, 不宜將其他課程的作業或Term Project, 
+不經修改即作為本課程作業或實作報告繳交. 
+
+注意: 各團隊認知模型系統期末專題實作成績即各成員共同之期末專題成績,占學期成績之40%. 因此務必慎選夥伴, 
+若有重大合作困難,請及早反應處理. 
+
+注意: 除非成績登錄發生錯誤,絕不更改成績. 
+
+課程簡介:
+本課程將介紹認知神經科學的計算模型之基礎原理,限制,與程式實作方式, 用以模擬基本人類認知現象的機制, 
+進而應用於機器人之設計.
+
+人類對大至太空宇宙, 小至基本粒子均已有相當充分的了解, 但對於人類自身內部的小宇宙(其神經系統堪稱為全宇宙 
+最複雜龐大的通訊控制系統)卻所知不多. 
+
+電腦發明後, 人們也開始設想電腦的人工智慧有沒有 
+可能超越人類的智能(超過的那一天, 被稱為Singularity), 電腦能力全面超過人類後的情境, 
+在科幻電影如"全面進化"(https://www.youtube.com/watch?v=PS879Fj3O_k), "魔鬼終結者," "駭客任務"等, 
+在在可看出人類對於提高電腦智能又害怕又期待的心態. 然而要提高電腦智能, 由過去認知科學的研究經驗得知,
+電腦認知演算法, 如自動語音辨識, 圖形識別, 深度學習等, 由人腦或生物認知(Biologically Inspired)結構簡化衍生的方法,
+多半具備較佳的效能. 因此, 如同科幻小說家Issac Assimov所撰寫的短篇小說<<天堂異鄉人>>(Stranger in Paradise, 收錄於葉李華譯, 
+艾西莫夫機器人[短篇全集-全新修訂版(上)], 台北市:貓頭鷹出版社, 2014, 頁119~149)所顯示, 機器人學應該與研究大腦的"智人學"
+合作, 仔細探討人類智能(大部分以認知行為呈現)的神經科學機制, 應用於機器人研發, 才可能避免複雜到無法處理的設計,
+製造出高效能機器人. 
+
+除了能力更像或可能超過人類的機器人設計外, 對大腦認知機制的研究, 更可能為人類的認知行為了解以及認知疾病
+如帕金森氏症, 阿茲海默症等的病理機轉與緩解, 讓肢障人士得以應用"想像"使用義肢("神經機器人學"(Neurorobotics)
+主要課題之一)等帶來曙光, 因此過去一,二十年, 對神經細胞與系統, 
+尤其是腦神經與認知行為的關聯, 有近乎爆炸性的研究發展與應用. 先進各國紛紛投入大量人力及鉅資進行大規模的研究. 
+著名的研究計畫如美國的 
+The BRAIN Initiative (http://www.nih.gov/science/brain/, 
+http://en.wikipedia.org/wiki/BRAIN_Initiative), 
+歐盟的The Human Brain Project (https://www.humanbrainproject.eu/, 
+http://en.wikipedia.org/wiki/Human_Brain_Project), 已進行多年, 使用IBM超級電腦的 
+The Blue Brain Project (http://bluebrain.epfl.ch/, http://en.wikipedia.org/wiki/Blue_Brain_Project ), 
+由腦神經科學啟發, 顛覆傳統馮.紐曼架構的非傳統類神經網路平行運算硬體系統 
+SpiNNaker(http://apt.cs.manchester.ac.uk/projects/SpiNNaker/project/, S. B. Furber, et. al. 
+"The SpiNNaker Project," IEEE Proceedings, vol.102, no.5, 2014, pp 652-665; S. B. Furber et. al.,
+"Overview of the SpiNNaker System Architecture," IEEE Transactions on Computers, vol. 62, no. 12, 2013, pp. 2454 - 2467)等.
+
+國內多年前即有認知科學及神經科學方面的研究教學單位接連成立, 並有數位先進執行類似研究計畫. 
+台大亦先後成立神經生物與認知科學研究中心, 神經生物與認知科學學程, 腦與心智研究所, 系統生物學研究中心, 等單位或學程. 
+在心理系所有包括高等認知神經科學, 心理與神經資訊學等認知心理學的課程與研究. 在生命科學院, 台大醫院, 工學院醫工研究所, 
+電資學院生醫電子資訊所等也持續進行神經科學研究. 但就 
+任課教師所知, 國內研究大多採用動物實驗數據, 腦波, 或生物影像觀察及推論等方法, 
+從事神經模擬方面研究的先進不算多. 雖然國內先進已有豐碩研究成果, 但仍少有課程強調計算機模擬之重要性與詳細說明其方法.
+更無論其在機器人設計的應用.
+
+至於機器人學的研究, 電機資訊學院與工學院相關系所老師也有相當成就, 但是還很少看到應用神經科學到機器人認知行為的探討.
+
+有鑑於結合神經科學, 心理學, 人工智慧, 軟體技術, 機器人學等的計算認知神經科學重要性日增, 依據先前兩次開課經驗及修課同學回饋建議, 
+參考本課程教科書作者建議的授課進度表,調整課程重點內容及若干教學與評量方式, 再度開設本課程, 並增加一節課, 讓同學們與任課教師交流實作經驗, 
+簡報與討論作業與期末專題構想與進度.
+ 
+最後, 本校神經認知學程與相關系所提供亦若干門認知神經科學及心理與神經資訊學課程, 在生醫及心理領域的內容,
+遠較本課程所授完整深入, 同學可考慮一併或先後選修旁聽, 
+作為本課程於認知神經科學與心理學方面加深加廣的學習, 應可大幅增進學習成效. 
+
+
+教學目標:
+使學生能透過學習新興認知神經科學與其計算模型原理, 在大略符合神經生理學與認知心理學實驗觀察可靠文獻之前提下, 
+建立模擬人類認知行為的軟硬體雛形. 進而運用與傳統AI理論不同的方式, 設計更有效的認知機器人, 
+或探討人類認知行為的可能神經科學機制與其發生病態的可能原因.
+
+教學內容:
+一. 預修科目: 
+1. 計算機程式設計: 本課程絕大部分的的範例, 作業, 期末專題等, 均使用Python程式語言. 
+修課同學不一定要學過Python, 課程中會有簡介, 但同學最好開學前就能對以下一般程式語言觀念有相當的了解: 變數, if...else, 
+迴圈(for, while, do...while), 函式(function), 一,二維陣列, 類別(class)與物件(object). 更實際一點來說, 
+如果能相當清楚以下YouTube影片介紹的Python內容, 對本課程的學習應該就沒有問題: 
+D. Banas, Python Programming (Learn Python in One Video,約45分鐘), https://www.youtube.com/watch?v=N4mEzFDjqtA 
+. 
+
+2. 機率與統計, 例如probability density function, 期望值, mean, variance, Gaussian distribution, Poisson distribution, random variables, 
+conditional probability, Bayes定理等. 
+
+3. 認知神經科學: 作為計算模型須符合的限制(constrains), 但不是本課程重點. 相關內容主要放置於參考教材, 由基礎開始介紹, 所以沒學過也行. 
+內容的深度與廣度, 當然不能與專門學系的有關課程相提並論. 要深入探討的同學請考慮同時或先後修習相關課程如腦與心智科學概論, 心與腦, 神經生理學, 
+認知心理學, 高等認知神經科學, 神經生物與認知科學學程等. 
+
+二. 上課方式: 
+任課教師提供的課程教材, 內容過多, 不可能於所訂進度時間內教完. 因此教材將分成三類: 
+1. 基礎教材: 盡量詳細講解, 並於上課時間內上完的內容 
+2. 參考教材: 同學自修以及準備作業和期末專題時可參考的內容 
+3. 延伸學習: 同學深入瞭解之途徑 
+
+每週上課前三節講解教材, 第四節為討論課, 盡量讓同學與任課教師交流 Nengo 與 ROS的使用心得, 
+以及輪流報告討論作業和期末專題的構想和進度, 任課教師會在同學討論告一段落後, 提供自己的看法與建議.
+
+為得到最好學習效果, 強烈建議同學課前主動妥為預習, 上課時可攜帶具校園內無線上網功能之筆記型或平板型電腦, 
+除每週第四節之討論與實作交流外, 可隨時讀取任課老師準備之教材投影片, 或參考書籍電子版, 又可隨時搜尋網路相關資源, 
+下載或上傳資料至雲端空間如NTUSpace, 方便課內課外利用電子筆記本如Evernote或OneNote註記重點, 疑問, 心得, 備份資料, 
+及整理所得資訊後提供的看法; 另一方面也可以隨時依教學內容, 逐步跟著任課教師之說明實作或觀察課程範例內容, 
+
+三. 作業 
+作業繳交日前每位修課同學需自訂一個本課程範圍內主題, 實作一項課程相關Python及/或Matlab程式, 並與文獻比較異同, 延伸 
+或批判其內容, 亦可提出自己的創新想法, 完成系統化討論, 以英文寫成一份8頁左右書面報告, 格式及寫作指引請參照 
+Peter Harris, Designing and Reporting Experiments in Psychology, 3rd ed., In Open Guides to Psychology.Maidenhead : McGraw-Hill Education. 2008. 
+台大電子書http://web.a.ebscohost.com/ehost/detail/detail?sid=ac4c4a5d-9dfa-4459-9d86-0b5fd79dd34c%40sessionmgr4004&crlhashurl=login.aspx%253fdirect%253dtrue%2526scope%253dsite%2526db%253dnlebk%2526db%253dnlabk%2526AN%253d234326&hid=4106&vid=0&bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#db=nlebk&AN=234326&anchor=tocAnchor
+以上書面報告請另外增添學習心得報告(可用中文)與程式碼作為附錄, 轉成一份pdf檔.同時並準備由同樣內容整理, 
+含標題頁之7張左右投影片power point檔,供作業討論日簡報之用. 
+書面報告pdf檔以及簡報PowerPoint合併壓縮成一個zip檔, 於作業繳交日上課前由CEIBA系統上傳. 作業每次每人繳交一份, 
+不可多人合交. 如為多人合作, 亦須分開撰寫不同內容. 
+作業繳交日最後一節, 輪流抽籤決定同學以其準備之投影片, 進行簡報, 若有系統展示(demo, 必要時播放預錄影片檔 
+可避免臨時出狀況)更佳. 
+
+請注意本課程與人工智慧相關領域如Neural Networks, Deep Learning, Machine Learning等有所差距, 
+本課程作業需結合神經科學與心理學內涵, 不宜將他處課程之作業原封不動交來. 
+
+四. 認知模型系統期末專題實作 
+課程進行中, 修課及旁聽同學自組1至3人之團隊, 於第11週開始, 由CEIBA繳交團隊名單及一頁 
+之期末專題構想, 說明預定模擬之認知功能, 及可能之電腦模型軟硬體實作方法, 完成之計算模型, 鼓勵使用
+Robot Operating System 內的工具, 設計簡化的機器人軟體模型及其模擬環境. 隨後團隊即持續合作, 以Nengo及Python
+建立可能產生此等現象之認知神經科學模擬系統, 並與認知心理學, 神經生理學, 認知神經科學, 或類似之計算認知 
+心理學主題有關文獻比較, 討論結果合理性, 相似相異處, 方法優缺點等.
+
+專題實作主題建議(取自教科書網頁: Using the book as a text, http://www.nengo.ca/build-a-brain/textbookuse)
+Build a creature to seek food and return to a home nest
+Build a serial working memory model that allows for loading, reset, etc.
+Build a robot controller for a robot that you present instructions to, that it memorizes and then executes.
+Build an adaptive controller for a 3-link arm using Slotine's adaptation methods.
+Build a model that does any one of the tasks in Spaun. 
+
+每一團隊應寫成一份英文書面報告, 格式同樣請參照Peter Harris, Designing and Reporting Experiments in Psychology, 3rd ed., In Open Guides to Psychology.Maidenhead : McGraw-Hill Education. 2008. 
+台大電子書http://web.a.ebscohost.com/ehost/detail/detail?sid=ac4c4a5d-9dfa-4459-9d86-0b5fd79dd34c%40sessionmgr4004&crlhashurl=login.aspx%253fdirect%253dtrue%2526scope%253dsite%2526db%253dnlebk%2526db%253dnlabk%2526AN%253d234326&hid=4106&vid=0&bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#db=nlebk&AN=234326&anchor=tocAnchor
+以上書面報告請另外增添學習心得報告(可用中文)與程式碼作為附錄, 轉成一份pdf檔.同時並準備由同樣內容整理, 
+含標題頁之7張左右投影片power point檔,供期末專題發表會簡報之用. 
+書面報告pdf檔以及簡報PowerPoint各自壓縮成zip檔, 於期末專題發表會原上課時間前由CEIBA系統分別上傳 
+期末專題發表會, 輪流抽籤決定同學以其準備之投影片, 進行簡報, 若有系統展示(demo, 必要時播放預錄影片檔, 可避免臨時出狀況)更佳. 
+
+請注意本課程與人工智慧等之理論或研究成果領域如Neural Networks, Deep Learning, Machine Learning等有所差距, 本課程期末專題實作需結合神經科學與心理學內涵, 不宜將他處課程之Term Project原封不動交來.
+
+教科書:
+C. Eliasmith, How to Build a Brain: A Neural Architecture for Biological 
+Cognition (Oxford Series on Cognitive Models and Architectures), Oxford 
+University Press, 2013. 
+台大總圖Oxford Scholarship Online電子書 
+http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199794546.001.0 
+001/acprof-9780199794546 
+各章實作指引 Nengo 2.0 版 https://github.com/s72sue/Nengo2-Tutorials
+
+
+實作軟體:
+python 程式語言整合開發環境 PyCharm: https://www.jetbrains.com/pycharm/
+建議使用的Python程式整合開發環境
+
+Nengo (Neural ENGineering Objects) 認知神經科學模型開發工具: http://www.nengo.ca/
+為上課及作業與專題所用工具
+Nengo手冊: http://pythonhosted.org/nengo/
+Nengo 範例: http://pythonhosted.org/nengo/examples.html
+
+ROS (Robot Operating System) 機器人作業系統: http://www.ros.org/, 
+僅支援Ubuntu系統(所以Windows及蘋果OS電腦可能要安裝雙系統), 內含Gazebo 機器人模擬系統
+不包括在上課內容, 不要求但鼓勵自修並應用於作業與專題中. 
+
+自編教材:
+每週教材均為教科書相關內容及有關文獻重點提示. 相關power point檔, pdf檔, txt檔等, 將會置入XMind 8之心智圖工作簿xmind檔, 
+放在NTUSpace雲端空間供同學下載, 因此請安裝免費軟體XMind 8 (http://actsmind.com/blog/) 以便開啟閱讀. 
+
+參考書目:	
+本課程為一跨領域課程, 除認知心理學, 數值模擬, 及神經科學外, 亦多少涉及或可應用於
+機器人學(Robotics), 機器學習(Machine Learning), 圖論(Graph Theory), 網路科學, 哲 
+學, 人工智慧, 計算機結構等範疇, 可參考之書籍與論文頗多. 
+
+本課程教材除包括教科書, 研究論文與報告外, 較相關之參考書條列如下(實體書已通知圖書館置於參 
+考書架, 限館內閱覽): 
+
+[Computational Cognitive Neuroscience and Computational Neuroscience] 
+R. C. O'Reilly, Y. Munakata, T. Hazy, and M. J. Frank, Computational 
+Cognitive Neuroscience, 2nd edition, 2014. 
+電子書(Wiki book) https://grey.colorado.edu/CompCogNeuro/index.php? 
+title=CCNBook/Main 
+
+P. W. Glimcher and E. Fehr ed., Neuroeconomics: Decision Making and the 
+Brain, 2nd ed., Oxford, UK: Elsevier Inc. ( in association with the Society 
+for Neuroeconomics—www.neuroeconomics.org), 2014. 
+台大總圖ScienceDirect電子書 
+http://www.sciencedirect.com/science/book/9780124160088 
+
+
+B. Anderson, Computational Neuroscience and Cognitive Modelling: A Student's 
+Introduction to Methods and Procedures, London: SAGE, 2014. (所用數學及程式語 
+言的簡單介紹, 對非電資學院同學比較有用) 
+
+T. P. Trappenberg, Fundamentals of Computational Neuroscience, Oxford 
+University Press, 2010. 另附參考資源網址: 
+http://www.cs.dal.ca/~tt/fundamentals 
+
+D. Sterratt, B. Graham, A. Gillies, D. Willshaw, 
+Principles of Computational Modeling in Neuroscience 
+Cambridge University Press, 2011. 
+
+
+[Cognitive Neuroscience] 
+M S. Gazzaniga, R. B. Ivry, G. R. Mangun, Cognitive Neuroscience: The 
+Biology of the mind, 4th ed., New York: Norton, 2013. 
+
+D. Purves, R. Cabeza, S. A. Huettel, K. S. LaBar, M. L. 
+Platt, M. G. Woldorff, Principles of Cognitive Neuroscience, Sunderland, 
+MA, USA: Sinauer Associates, Inc.., 2013. 另附參考資源網址: 
+http://sites.sinauer.com/cogneuro2e/index.html 
+
+[Neural Science] 
+E. R Kandel ed., Principles of neural science, 5th ed., New York : McGraw- 
+Hill Medical, 2013. 
+
+[Cognitive Psychology and Psychological Science] 
+M. S. Gazzaniga, T. F. Heatherton, D. F. Halpern, Psychological 
+science, 4th ed., New York : W. W. Norton, 2013. 另附參考資源網 
+址:http://www.wwnorton.com/college/psych/psychsci4/ch/01/studyplan.aspx 
+
+[Cognitive Science] 
+J. L. Bermudez, Cognitive science : an introduction to the science of 
+the mind, 2nd ed., Cambridge : Cambridge University Press, 2014.
+
+John R. Anderson, How can the human mind occur in the physical universe?
+New York : Oxford University Press, 2007. 
+
+[Philosophy] 
+Stuart M. Shieber, The Turing Test:Verbal Behavior as the Hallmark of Intelligence,
+MA: MIT Press, 2004.
+台大總圖IEEE Xplore電子書,
+http://ieeexplore.ieee.org/xpl/bkabstractplus.jsp?bkn=6267336
+
+W. R. Uttal, Mind and Brain: A critical appraisal of cognitive neuroscience, 
+Cambridge, MA: MIT Press, 2011. 
+
+[ROS]
+M. Quigley, B. Gerkey, and W. D. Smart, Programming Robots with ROS: 
+A practical introduction to the Robot Operating System, Sebastopol, CA:
+O'Reilly Media, Inc., 2015.
+
+[推薦科普讀物] 
+R. Carter, Mapping the Mind, University of California Press, 2000. 
+
+評量方式:
+1. 	兩次作業	60%	每次作業30% 
+作業由任課教師批改, 評分要點為報告內容是否適當回應主題, 內容安排是否有創意且系統化, 自創想法是否有新意 
+且有證據支持, 邏輯論述是否清楚合理易懂, 相關文獻引用是否適當, Python/Matlab程式測試數值實驗安排及結果. 
+討論是否周延合理, 學習心得是否言之有物等. 
+請注意本課程與人工智慧等之理論或研究成果領域如Neural Networks, Deep Learning, Machine Learning等有所差距, 
+本課程作業需結合神經科學與心理學內涵, 不宜將他處課程之作業原封不動交來. 
+同學若自修或向其他師長先進, 學長或同學學得超過課程進度之內容,並應用於自行完成之作業, 需敘明自修或討論 
+學習過程於學習心得部份. 作業亦可利用其他既有之相關開放程式碼或無版權顧慮之軟硬體工具及網路上可公用之 
+數據, 影音, 圖片等資料, 直接或修改後採用, 以完成同學構想之主題, 但需註明出處及修改應用之處. 
+
+作業討論時間若抽到的修課同學未事先請假, 又不在教室內, 作業成績先九五折, 
+隨後由抽到之時間至該同學出現或下課, 每十分鐘將該份作業成績乘以0.95一次. 
+作業遲交時,成績先打九折,隨後自預定繳交日第一節開始上課時間算起,每逾一日(24小時),該次作業成績乘以0.85 
+一次. 若因另有要事無法出席作業討論者, 仍須於作業討論日上課第一節前上傳作業壓縮檔. 並須與授課老師商量, 
+於適當時間進行作業簡報.
+
+2	期末專題口頭報告及展演	20%	於期末專題發表日(期末考日)原上課第一節時間開始, 輪流抽籤決定報告團隊. 
+每個團隊都會上台, 簡報加系統展示 
+(必要時得播放預錄影片)10分鐘,持續到所有團隊報告完畢. 如果團隊數過多, 無法於4小時內結束, 任課老師可能 
+重新安排專題發表時間, 將其延長至一到兩整天. 簡報時其他聽講同學為報告團隊以1至5分評分, 並註記優缺點. 
+自己團隊報告時, 應迴避不予評分. 所評分數1至5分各分數所占人數應照報告當日宣佈之規定比例分配, 不可全部 
+打相同或只打少數特定分數. 各團隊之口頭報告及展演成績為其他同學評分截頭去尾後平均(x),換算得分為 70+5x, 
+缺席為0分. 
+因不可抗力原因如參加遊學團或其他課程之野外實習等, 須盡早通知任課教師請假. 每團隊於報告日當天, 至少要有 
+一人出席簡報成果. 若因如上述原因, 致報告時間無人能參加簡報者, 須及早通知任課老師, 可安排於最後上課日 
+最後一節下課前簡報. 但要求之pdf檔仍應於規定時間之前上傳.發表會後, 若確因不可抗力原因致團隊中無人能出席 
+發表會者, 須附證明, 並於報告日當晚12:00前以email通知任課老師, 安排第二日適當時間向任課老師簡報, 
+並由任課教師評分. 如仍無法簡報者, 由團隊與任課老師商討變通方法. 無論何種情形, 專題報告之Power Point 
+檔均應於規定時間前上傳. 遲交者不論原因, 成績打八折. 
+
+3	期末專題書面報告	20%	由任課老師主觀依照書面報告之整體表現, 以 A+ = 97, A = 92, 
+A- = 87, B+ = 82, B = 77, B- = 72 等評分, 缺交為0分. 
+不論原因, 遲交者成績打八折,期末專題發表日開始算起兩天(48小時)後,不再收補交之書面報告,該項成績為零分 
+
+請注意本課程與人工智慧等之理論或研究成果領域如Neural Networks, Deep Learning, Machine Learning等有所差距, 
+本課程期末實作需結合神經科學與心理學內涵, 不宜將他處課程之term project原封不動交來.
+
+課程進度表:
+第1週	2/24	Text: Sections 1.1 & 1.2 - The Science of Cognition	
+                      A brief history of cognitive science		
+                      Central features of the main approaches
+                Extension: Cognitive Psychology and Python   
+                Nengo: Install and run Nengo
+
+第2週	3/3	Text: Sections 1.3 & 1.4	
+		      Challenges for cognitive science
+                      Overview of the approach in this course
+                Extension: Spiking Models 
+		Nengo: Build a model of a single neuron
+
+第3週	3/10	Text: Sections 2.2 & 2.2.1	
+                      An introduction to basic neurophysiology and anatomy
+                      Principle 1 of the NEF - representation
+                Extension: Neurons
+                Nengo: Build a model of 1D representation
+
+第4週	3/17	Text: Sections 2.2.2	
+		      Principle 2 of the NEF - computation
+                Nengo: Build a model that computes linear and nonlinear 
+                       functions of a single variable
+
+第5週	3/24	Text: Section 2.2.3	
+                      Principle 3 of the NEF - dynamics
+                Nengo: Build a model of a 1D integrator
+
+第6週	3/31	Text: Section 2.3	
+                      Levels of description in the behavioral sciences
+		Extension: Networks
+                Nengo: Build a model at 3 levels of description
+
+第7週	4/7	Text: Sections 3.1 - 3.4	
+                      Overview of the semantic pointer hypothesis
+                      Distributed neural semantics
+                Nengo: Build a model of 2D (and/or higher-D) representation
+                繳交第一次作業 
+
+第8週	4/14	Text: Sections 3.5 - 3.7	
+                      An introduction to visual semantics
+                      An introduction to motor semantics
+		Extension: Perceptions, Auditory system
+                Nengo: Build a model of 2D nonlinear computation (multiplication)
+ 
+
+第9週	4/21	Extension: Deep Belief Network and Autoencoder 
+
+第10週	4/28	Text: Sections 4.1 - 4.4 & 4.6	
+                      Syntactic representations
+                      Vector symbolic architectures
+                      Implementations of VSAs in neurons
+		Nengo: Build a binding neural network
+
+
+第11週	5/5	Text: Sections 4.5, 4.6 & 4.7	
+                      Learning syntactic manipulations
+                      Modeling fluid intelligence
+                      Syntax and semantics for structured concepts
+                Nengo: Build a model that learns an unknown syntactic transformation
+                繳交期末專題實作分組名單及實作主題簡述 
+
+第12週	5/12	Text: Sections 5.1-5.3	
+                      Basal ganglia anatomy and physiology
+                      Basal ganglia function
+                Nengo: Build a basal ganglia model that selects among 5 actionsAttenion
+
+
+第13週	5/19	Text: Sections 5.4, 5.6-5.8	
+                      Basal ganglia use for flexible action selection
+                      Example uses of the basal ganglia model in the SPA
+		Extension: Decision Making
+                Nengo: Build a question answering model with control
+
+
+第14週	5/26	Text: Sections 6.1-6.3	
+                      Introduction to cognition through time
+                      Working memory and serial working memory
+                Extension: Short-time and long-time memory
+                Nengo: Build a (serial) working memory model
+                繳交第二次作業 
+
+第15週	6/2	Text: Sections 6.4-6.6	
+                      Spike-timing dependent plasticity (STDP)
+                      Reinforcement learning
+                      Learning transformations with the hPES rule
+		Extension: Learning in General
+                Nengo: Build a network that learns an arbitrary 1D transformation
+
+
+第16週	6/9	Text: Sections 7.1-7.3	
+                      A review and overview of the SPA
+                      The Spaun model and tasks
+                Nengo: Build a question answering model with control
+
+第17週	6/16	Text: Section 7.4	
+                      Probabilistic models
+                      Interpreting the SPA as a probabilistic model
+                Nengo: Build a model to do a simple statistical inference problem
+ 
+
+第18週	6/23	期末專題實作成果發表會 
+
